@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+.main {
+  margin: auto;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: auto;
+}
+.navbar-wrepper {
+  max-width: 1190px;
+  padding: 0 15px;
+  margin: auto;
+}
+.feedback {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: auto;
+}
+.Poppins {
+  font-family: Poppins;
+}
+.tt-wellingtons {
+  font-family: tt-wellingtons;
+}
+.user {
+  max-width: 1063px;
+  padding: 0 15px;
+  margin: auto;
+}
+.text {
+  max-width: 1098px;
+  padding: 0 15px;
+  margin: auto;
+}
+.main-container {
+  max-width: 1150px;
+  padding: 0 15px;
+  margin: auto;
+}
+.showData {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  background-color: #2b333e;
+  color: white;
+  width: 60%;
+  z-index: 100;
+  padding: 0;
+}
+div.p {
+  transition: 0.6s;
+}
+input:checked ~ h1 ~ div.p {
+  max-height: 50vh !important;
+}

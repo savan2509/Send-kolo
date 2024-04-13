@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Include Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./input.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/tt-wellingtons-trl"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!-- navbar -->
+      <section>
+        <div class="bg-gray-900 h-12 flex">
+          <div class="container">
+            <div class="navbar-wrepper">
+              <div class="text-white">
+                <div class="flex justify-between">
+                  <div>
+                    <div class="flex gap-4 items-center sm:gap-6">
+                      <div
+                        class="gap-4 flex items-center font-medium sm:text-sm text-xs leading-5 Poppins"
+                      >
+                        <img
+                          class="w-5 h-5 sm:block hidden"
+                          src="./imeges/call.svg"
+                          alt="call-img"
+                        />
+                        987 456 0987
+                      </div>
+                      <div class="w-1 h-1 sm:block hidden">
+                        <img src="./imeges/dot.svg" alt="dot-img" />
+                      </div>
+                      <div
+                        class="gap-4 flex items-center font-medium sm:text-sm text-xs leading-5 Poppins"
+                      >
+                        <img
+                          class="w-5 h-5 sm:block hidden"
+                          src="./imeges/sms.svg"
+                          alt="sms-img"
+                        />
+                        Support@sendkolo.com
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sm:block hidden">
+                    <div
+                      class="items-center flex gap-4 font-medium text-sm leading-5 tt-wellingtons"
+                    >
+                      <img
+                        class="w-5 h-5"
+                        src="./imeges/global.svg"
+                        alt="global-img"
+                      />
+                      English
+                      <img
+                        class="w-5 h-5"
+                        src="./imeges/arrow-down.svg"
+                        alt="arrow-down-img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- navbar container -->
+      <section>
+        <div class="h-20">
+          <div class="navbar-wrepper relative z-50">
+            <div class="flex justify-between pt-5 max-w-[1190px]">
+              <div>
+                <img
+                  class="w-48 h-8"
+                  src="./imeges/send-kolo-logo.svg"
+                  alt="send-kolo-logo-img"
+                />
+              </div>
+              <div>
+                <div class="navbar-list-warper-hide lg:block hidden">
+                  <ul
+                    class="flex gap-10 items-center font-semibold text-lg leading-6 tt-wellingtons"
+                  >
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./terns&condistion.html">Services</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./help.html">Help center</a></li>
+                    <li>
+                      <img
+                        class="downolad"
+                        src="./imeges/downoloard--app.png"
+                      />
+                    </li>
+                  </ul>
+                </div>
+
+                <img
+                  class="icone lg:hidden block"
+                  src="./imeges/ri_menu-3-line.svg"
+                  alt="ri-menu-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hidden Navbar -->
+      <div class="navbar-wrepper-hide hidden">
+        <div class="flex justify-between w-[700px] relative">
+          <div class="showData">
+            <ul
+              class="flex flex-col gap-10 items-center font-semibold text-lg leading-6 tt-wellingtons p-3"
+            >
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./help-center.html">Help center</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- hero-section -->
+      <section>
+        <div>
+          <div class="main-container">
+            <div
+              style="background-image: url(./imeges/seconed-hero-section.png)"
+              class="items-center max-md:flex-col justify-around bg-cover bg-repeat flex h-auto rounded-b-[35px]"
+            >
+              <div>
+                <div class="sm:w-[482px] w-[300px]">
+                  <h6
+                    class="max-md:text-center text-[22px] font-semibold leading-8 text-[#ffffff]"
+                  >
+                    Know something about us
+                  </h6>
+                  <h2
+                    class="max-md:text-center text-[42px] font-extrabold text-[#ffffff]"
+                  >
+                    You’ve got questions? we’ve got answers
+                  </h2>
+                  <p
+                    class="text-lg max-md:text-center font-medium leading-8 text-[#FFFFFF]"
+                  >
+                    Our services and solutions are tailored to provide our
+                    members, exchange options for their transactions using our
+                    platform.
+                  </p>
+                </div>
+              </div>
+              <div class="lg:pt-7 flex justify-end">
+                <img src="./imeges/blog-hero-img.png" alt="finance-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- know section -->
+      <section>
+        <div class="bg-[#fedfd1] mt-24">
+          <div class="main-container">
+            <div class="py-10 pt-9">
+              <h6
+                class="text-center text-[#F95E19] font-medium text-[22px] leading-8 rounded-b-[35px]"
+              >
+                Read our blogs
+              </h6>
+              <h1 class="text-center font-bold text-[42px]">Did you know?</h1>
+              <div>
+                <div class="flex md:flex-row flex-col items-center gap-3 pt-6">
+                  <div class="sm:w-[365px] w-[300px] bg-[white] p-3">
+                    <div>
+                      <img
+                        src="./imeges/did-you-know-first.png"
+                        alt="did-you-know-first-img"
+                      />
+                    </div>
+                    <div>
+                      <h6 class="font-semibold text-lg leading-8">
+                        Cameroon diaspora accomplishe d the following in 2022
+                      </h6>
+                      <p class="font-normal text-lg pt-3 text-[#5A5E65]">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed
+                      </p>
+                      <div class="flex pt-6">
+                        <img src="./imeges/black.svg" alt="/" />
+                        <div class="pl-3">
+                          <h6 class="text-lg font-semibold leading-8">
+                            Annette Black
+                          </h6>
+                          <p
+                            class="leading-8 text-base font-medium text-[#5A5E65]"
+                          >
+                            August 24, 2023
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- seconed card -->
+                  <div class="sm:w-[365px] w-[300px] bg-[white] p-3">
+                    <div>
+                      <img
+                        src="./imeges/did-you-know-seconed.png"
+                        alt="did-you-know-seconed-img"
+                      />
+                    </div>
+                    <div>
+                      <h6 class="font-semibold text-lg leading-8">
+                        Cameroon diaspora accomplishe d the following in 2022
+                      </h6>
+                      <p class="font-normal text-lg pt-3 text-[#5A5E65]">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed
+                      </p>
+                      <div class="flex pt-6">
+                        <img src="./imeges/wilson.svg" alt="wilson-img" />
+                        <div class="know-section-footer-seconed-last pl-3">
+                          <h6 class="text-lg font-semibold leading-8">
+                            Jenny Wilson
+                          </h6>
+                          <p
+                            class="leading-8 text-base font-medium text-[#5A5E65]"
+                          >
+                            August 24, 2023
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- thired card -->
+                  <div class="sm:w-[365px] w-[300px] bg-[white] p-3">
+                    <div>
+                      <img
+                        src="./imeges/did-you-thired.png"
+                        alt="did-you-thired-img"
+                      />
+                    </div>
+                    <div>
+                      <h6 class="font-semibold text-lg leading-8">
+                        Cameroon diaspora accomplishe d the following in 2022
+                      </h6>
+                      <p class="font-normal text-lg pt-3 text-[#5A5E65]">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed
+                      </p>
+                      <div class="flex pt-6">
+                        <img src="./imeges/Brooklyn.svg" alt="Brooklyn-img" />
+                        <div class="pl-3">
+                          <h6 class="text-lg font-semibold leading-8">
+                            Jenny Wilson
+                          </h6>
+                          <p
+                            class="leading-8 text-base font-medium text-[#5A5E65]"
+                          >
+                            August 24, 2023
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex md:flex-row flex-col items-center gap-3 pt-6">
+                <div class="sm:w-[365px] w-[300px] bg-[white] p-3">
+                  <div>
+                    <img
+                      src="./imeges/did-you-know-first.png"
+                      alt="did-you-know-first-img"
+                    />
+                  </div>
+                  <div>
+                    <h6 class="font-semibold text-lg leading-8">
+                      Cameroon diaspora accomplishe d the following in 2022
+                    </h6>
+                    <p class="font-normal text-lg pt-3 text-[#5A5E65]">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed
+                    </p>
+                    <div class="flex pt-6">
+                      <img src="./imeges/black.svg" alt="black-img" />
+                      <div class="pl-3">
+                        <h6 class="text-lg font-semibold leading-8">
+                          Annette Black
+                        </h6>
+                        <p
+                          class="leading-8 text-base font-medium text-[#5A5E65]"
+                        >
+                          August 24, 2023
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- seconed card -->
+                <div class="sm:w-[365px] w-[300px] bg-[white] p-3">
+                  <div>
+                    <img
+                      src="./imeges/did-you-know-seconed.png"
+                      alt="did-you-know-seconed-img"
+                    />
+                  </div>
+                  <div>
+                    <h6 class="font-semibold text-lg leading-8">
+                      Cameroon diaspora accomplishe d the following in 2022
+                    </h6>
+                    <p class="font-normal text-lg pt-3 text-[#5A5E65]">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed
+                    </p>
+                    <div class="flex pt-6">
+                      <img src="./imeges/wilson.svg" alt="wilson-img" />
+                      <div class="pl-3">
+                        <h6 class="text-lg font-semibold leading-8">
+                          Jenny Wilson
+                        </h6>
+                        <p
+                          class="leading-8 text-base font-medium text-[#5A5E65]"
+                        >
+                          August 24, 2023
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- thired card -->
+                <div class="sm:w-[365px] w-[300px] bg-[white] p-3">
+                  <div>
+                    <img
+                      src="./imeges/did-you-thired.png"
+                      alt="did-you-thired-img"
+                    />
+                  </div>
+                  <div>
+                    <h6 class="font-semibold text-lg leading-8">
+                      Cameroon diaspora accomplishe d the following in 2022
+                    </h6>
+                    <p class="font-normal text-lg pt-3 text-[#5A5E65]">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed
+                    </p>
+                    <div class="flex pt-6">
+                      <img src="./imeges/Brooklyn.svg" alt="Brooklyn-img" />
+                      <div class="pl-3">
+                        <h6 class="text-lg font-semibold leading-8">
+                          Jenny Wilson
+                        </h6>
+                        <p
+                          class="leading-8 text-base font-medium text-[#5A5E65]"
+                        >
+                          August 24, 2023
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center pt-11">
+                <button
+                  class="rounded-[70px] border-2 border-[#141C28] font-semibold text-lg leading-7 py-[18px] px-[20px]"
+                >
+                  Older Post
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- feedback section -->
+      <section>
+        <div>
+          <div class="user">
+            <div>
+              <div
+                class="flex md:flex-row flex-col lg:gap-16 gap-2 py-12 items-center"
+              >
+                <div class="w-[300px] h-[420px] shadow-md">
+                  <div class="flex justify-center bg-[#FEDFD1]">
+                    <img
+                      class="w-[162.03px] h-[210.01px]"
+                      src="./imeges/Floyd-Miles.png"
+                      alt="Floyd-Miles-image"
+                    />
+                  </div>
+                  <div class="pt-6">
+                    <h6 class="font-bold text-xl leading-7 flex justify-center">
+                      Floyd Miles
+                    </h6>
+                    <p
+                      class="font-medium text-lg leading-8 text-center pt-3 text-[#141C28]"
+                    >
+                      Lorem ipsum dolor sit amet consectetur.dolor sit amet
+                      consectetur.
+                    </p>
+                  </div>
+                </div>
+                <div class="w-[300px] h-[420px] shadow-md">
+                  <div class="flex justify-center bg-[#FEDFD1]">
+                    <img
+                      class="w-[162.03px] h-[210.01px]"
+                      src="./imeges/user-first.png"
+                      alt="user-first-image"
+                    />
+                  </div>
+                  <div class="pt-6">
+                    <h6 class="font-bold text-xl leading-7 flex justify-center">
+                      Guy Hawkins
+                    </h6>
+                    <p
+                      class="font-medium text-lg leading-8 text-center pt-3 text-[#141C28]"
+                    >
+                      Lorem ipsum dolor sit amet consectetur.dolor sit amet
+                      consectetur.
+                    </p>
+                  </div>
+                </div>
+                <div class="w-[300px] h-[420px] shadow-md">
+                  <div class="flex justify-center bg-[#FEDFD1]">
+                    <img
+                      class="w-[162.03px] h-[210.01px]"
+                      src="./imeges/user-seconed.png"
+                      alt="user-seconed-image"
+                    />
+                  </div>
+                  <div class="pt-6">
+                    <h6 class="font-bold text-xl leading-7 flex justify-center">
+                      Cameron Williamson
+                    </h6>
+                    <p
+                      class="font-medium text-lg leading-8 text-center pt-3 text-[#141C28]"
+                    >
+                      Lorem ipsum dolor sit amet consectetur.dolor sit amet
+                      consectetur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex text-center justify-center gap-5">
+              <img
+                src="./imeges/Arrow-left-Circle.svg"
+                alt="Arrow-left-Circle-img"
+              />
+              <img
+                src="./imeges/Arrow-right-Circle.svg"
+                alt="Arrow-right-Circle-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- support section -->
+      <section>
+        <div>
+          <div class="main-container">
+            <div class="flex py-28 lg:flex-row flex-col gap-20 items-center">
+              <div
+                class="w-[310px] h-[509.42px] sm:w-[503px] sm:h-[409.42px] pt-10"
+              >
+                <h6 class="text-[#F95E19] font-semibold text-[22px] leading-8">
+                  Quick access support
+                </h6>
+                <h1 class="font-bold text-[41px]">Instantly send support</h1>
+                <p class="font-medium text-lg leading-8 text-[#5A5E65]">
+                  Instantly send support, fuel your projects and fortify bonds
+                  back home
+                </p>
+                <p class="font-medium text-lg leading-8 text-[#5A5E65]">
+                  gravida diam sed purus volutpat eget senectus faucibus. Est
+                  elit viverra urna quis eleifend at. Fringilla commodo mus
+                  aliquam eu adipiscing amet in. Neque pellentesque faucibus
+                  quisque et. Augue sit quam facilisi tincidunt.
+                </p>
+                <div class="flex pt-7 lg:justify-start justify-center">
+                  <img
+                    class="w-[163.44px]"
+                    src="./imeges/Play-Store-icon.png"
+                    alt="play-store-img"
+                  />
+                  <img
+                    class="w-[163.44px]"
+                    src="./imeges/App-Store-icon.png"
+                    alt="app-store-img"
+                  />
+                </div>
+              </div>
+              <div class="pl-5 md:items-center sm:pl-20 sm:pt-0 pt-9">
+                <img src="./imeges/support.png" alt="support-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer section -->
+      <section>
+        <div class="bg-[#141C28]">
+          <div class="main-container py-14 w-full">
+            <div
+              class="grid grid-cols-[10%] lg:flex-row flex-col gap-14 lg:grid-cols-[35%_15%_15%_15%] sm:grid-cols-[50%_50%]"
+            >
+              <div class="w-[352px]">
+                <img
+                  class="w-[220px] h-[34.27px]"
+                  src="./imeges/white-logo.png"
+                  alt="white-logo-img"
+                />
+                <p class="font-medium text-base leading-7 text-[white] pt-8">
+                  gravida diam sed purus volutpat eget senectus faucibus. Est
+                  elit viverra urna quis eleifend at. Fringilla commodo mus
+                  aliquam eu adipiscing amet in. Neque pellentesque faucibus
+                  quisque et. Augue sit quam facilisi tincidunt.
+                </p>
+              </div>
+              <div class="w-[77px]">
+                <ul class="leading-6 text-base font-medium flex flex-col gap-5">
+                  <li class="text-[#F95E19]">Company</li>
+                  <li class="text-[white]">Home</li>
+                  <li class="text-[white]">About Us</li>
+                  <li class="text-[white]">Benefits</li>
+                  <li class="text-[white]">Legal</li>
+                </ul>
+              </div>
+              <div>
+                <ul class="flex flex-col gap-5">
+                  <li class="text-[#F95E19]">Resources</li>
+                  <li class="text-[white]">FAQs</li>
+                  <li class="text-[white]">Blog</li>
+                  <li class="text-[white]">Team</li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-5 w-[196px]">
+                <h6 class="text-[#F95E19]">Contact</h6>
+                <button
+                  class="flex gap-2 pl-2 rounded-full items-center w-[144px] h-[38px] bg-[#2b333e]"
+                >
+                  <img src="./imeges/WhatsApp.svg" alt="WhatsApp-img" />
+                  <p class="text-[white]">What’s App</p>
+                </button>
+                <div class="flex gap-4">
+                  <img src="./imeges/sms.svg" alt="sms-img" />
+                  <p class="text-[white]">Support@sendkolo.com</p>
+                </div>
+                <div class="flex gap-4">
+                  <img src="./imeges/call.svg" alt="call-img" />
+                  <p class="text-[white]">987 456 0987</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex pt-24 lg:flex-row flex-col lg:items-center lg:justify-between"
+            >
+              <div class="flex gap-7">
+                <p class="text-[white]">
+                  <a href="./terns&condistion.html">Terms & Conditions</a>
+                </p>
+                <p class="text-[white]">
+                  <a href="./privacy-policy.html">Privacy Policy</a>
+                </p>
+              </div>
+              <div>
+                <p class="text-[#F95E19]">Follow Us</p>
+                <div class="flex gap-2 pt-2">
+                  <img src="./imeges/Facebook.svg" alt="Facebook-img" />
+                  <img src="./imeges/Twitter.svg" alt="Twitter-img" />
+                  <img src="./imeges/Instagram.svg" alt="Instagram-img" />
+                  <img src="./imeges/LinkedIn.svg" alt="LinkedIn-img" />
+                  <img src="./imeges/YouTube.svg" alt="YouTube-img" />
+                  <img src="./imeges/TikTok.svg" alt="TikTok-img" />
+                  <img src="./imeges/Telegram.svg" alt="Telegram-img" />
+                </div>
+              </div>
+            </div>
+            <div class="text-center pt-9 text-[#FFFFFF]">
+              <p class="font-normal text-sm leading-5">
+                (c) 2023 Gobrizz Technology. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  </body>
+</html>
